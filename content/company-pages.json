@@ -1,0 +1,130 @@
+{
+  "_readme": "ShineHome 公司信任页内容。可直接导入 Sanity，或作为编辑红本。所有 [方括号] 需替换为真实数据——B2B 买家对虚假数字极其敏感，务必填真实值。",
+
+  "about": {
+    "title": "About ShineHome",
+    "pageType": "About",
+    "intro": "ShineHome is a direct manufacturer of designer replica furniture, serving furniture retailers, interior design studios and hospitality projects in 40+ countries since 20XX. We don't resell — we build.",
+    "body": [
+      "Most replica furniture on the market passes through three or four hands before it reaches a buyer. Each hand adds margin, loses specification detail, and makes accountability impossible. ShineHome exists to remove those hands.",
+      "We operate our own workshop in [佛山/东莞], integrating frame fabrication, upholstery, finishing and packaging under one roof. When you place an order with us, you are talking to the people who physically build your product — and the same people who answer when something needs to be fixed.",
+      "Our catalog spans 2,000+ SKUs across four design houses and five collections, covering seating, tables, lighting and case goods. Whether you need 10 pieces to test a market or 500 for a hotel rollout, the production line is the same."
+    ],
+    "keyFacts": [
+      { "value": "2,000+", "label": "SKUs in active production" },
+      { "value": "40+", "label": "Export countries served" },
+      { "value": "[32,000] m²", "label": "Manufacturing facility" },
+      { "value": "[180]+", "label": "Skilled craftspeople" },
+      { "value": "MOQ 10", "label": "Minimum order per design" },
+      { "value": "30 days", "label": "Average production lead time" }
+    ]
+  },
+
+  "factory": {
+    "title": "Our Factory",
+    "pageType": "Factory",
+    "intro": "One facility, full vertical integration: from kiln-dried hardwood frames to finished, export-packed goods.",
+    "body": [
+      "Our [32,000] m² workshop houses six production lines: solid wood frame fabrication, CNC panel processing, upholstery and sewing, foam cutting and shaping, metalwork, and finishing & assembly.",
+      "Vertical integration means we control the variables that ruin replica furniture: frame joinery that loosens after a year, foam that collapses under commercial use, leather that was dyed inconsistently across a batch. Because every stage happens in-house, a problem found downstream can be traced upstream the same day.",
+      "Facility highlights: [6] production lines · [12] CNC centers · in-house foam cutting · [4] upholstery lines · dedicated sample workshop · [2,000] m² warehouse for container consolidation."
+    ],
+    "keyFacts": [
+      { "value": "[32,000] m²", "label": "Workshop area" },
+      { "value": "[6]", "label": "Production lines" },
+      { "value": "[180]+", "label": "Employees" },
+      { "value": "[12]", "label": "CNC machining centers" },
+      { "value": "[7 days]", "label": "Sample production time" }
+    ]
+  },
+
+  "qualityControl": {
+    "title": "Quality Control",
+    "pageType": "Quality Control",
+    "intro": "Four inspection gates between raw material and your container. Every order ships with a photo inspection report.",
+    "body": [
+      "Incoming Material Inspection — Every batch of leather, fabric, foam and timber is checked against spec before it enters production: thickness, density, color consistency against approved swatches, moisture content for wood.",
+      "In-Process Inspection — Frames are checked for joinery strength and dimensional accuracy after assembly. Upholstery is checked for seam alignment, pattern matching and stitch density before final assembly.",
+      "Pre-Shipment Inspection — Finished goods are inspected at 100% for export orders. We test structural stability (static load and fatigue cycles to CATAS-equivalent standards), check hardware operation, and verify finish consistency across the batch.",
+      "Photo Documentation — Before packing, we photograph every piece or every pallet and send you the report. You approve before the container is sealed. If something isn't right, it is fixed at our cost, not discovered at your warehouse."
+    ],
+    "keyFacts": [
+      { "value": "4", "label": "Inspection gates" },
+      { "value": "100%", "label": "Pre-shipment inspection" },
+      { "value": "[5 yr]", "label": "Commercial use warranty" },
+      { "value": "[CATAS]", "label": "Test standard reference" }
+    ]
+  },
+
+  "certifications": {
+    "title": "Certifications & Compliance",
+    "pageType": "Certifications",
+    "intro": "Certification is not marketing — it is what lets your goods clear customs and pass your client's procurement audit.",
+    "body": [
+      "We maintain the certifications most frequently required by US, EU and AU buyers. Certificates are available on request for any order.",
+      "Social compliance: [BSCI] audited · [Sedex] member. These are what larger retailers and hospitality groups require before they will place a purchase order.",
+      "Product & material compliance: [CARB Phase 2] / [EPA TSCA Title VI] for composite wood (mandatory for US furniture imports) · [REACH] compliance for EU · [CA Prop 65] statements · fire-retardant foam options meeting [BS 5852] / [CAL TB 117] for contract and hospitality use.",
+      "Quality systems: [ISO 9001] quality management · [FSC] certified wood sourcing available on request."
+    ],
+    "keyFacts": [
+      { "value": "[BSCI]", "label": "Social audit" },
+      { "value": "[CARB P2]", "label": "US wood compliance" },
+      { "value": "[REACH]", "label": "EU compliance" },
+      { "value": "[ISO 9001]", "label": "Quality system" }
+    ]
+  },
+
+  "customOEM": {
+    "title": "Custom & OEM Capability",
+    "pageType": "Custom OEM",
+    "intro": "Send us a photo, a drawing, or a sample. We will return a quote, a lead time and a plan for getting the details right.",
+    "body": [
+      "Replica furniture buyers are rarely buying a catalog item exactly as-is. You need a different size, a different leather, a different leg finish, or your own label inside the frame.",
+      "What we can customize: dimensions (±5% typically, more with a new frame template) · leather grade, color and finish (aniline, semi-aniline, pigmented) · fabric selection from our library or yours · foam density (residential 28–32D, commercial 35D+) · stitching detail (contrast, piping, tufting pattern) · base and leg options (wood, metal, swivel, glide) · branded labels, tags and packaging.",
+      "Sampling process: 7 days for an existing design in a new material; [15–20 days] for a new development. Sampling fee applies and is [credited against your first production order] above [50] pcs.",
+      "What we need from you: reference photos or a physical sample · target dimensions and tolerance · intended use (residential vs. commercial — this changes the foam and frame spec) · target FOB price so we can advise on the right material grade up front."
+    ],
+    "keyFacts": [
+      { "value": "[7 days]", "label": "Sample on existing design" },
+      { "value": "[15–20 days]", "label": "New development sample" },
+      { "value": "[±5%]", "label": "Dimensional tolerance" },
+      { "value": "[50 pcs]", "label": "Volume for sample credit" }
+    ]
+  },
+
+  "logistics": {
+    "title": "Shipping & Logistics",
+    "pageType": "Logistics",
+    "intro": "Quote in FOB, CIF or DDP — whichever reduces the work on your end. We ship to 40+ countries and handle the paperwork.",
+    "body": [
+      "Trade terms: FOB [Shenzhen/Guangzhou/Ningbo] for buyers with their own freight forwarder · CIF for door-to-port with freight included · DDP for a fully landed cost — we handle customs clearance and deliver to your warehouse, which is what most first-time importers should use.",
+      "Consolidation: We hold goods for up to [60] days at no storage charge so multiple orders can ship in one container. Mixed SKUs in one container is normal — we plan cube utilization to avoid paying for air.",
+      "Packaging: Export-grade cartons with corner protection, foam wrap on finished surfaces, moisture barrier for sea freight, and desiccant as needed. Flat-packed where design allows to reduce freight cost; assembled where structural integrity requires it.",
+      "Documentation: Full export documentation provided — commercial invoice, packing list, bill of lading, certificate of origin, and any certificate your customs requires."
+    ],
+    "keyFacts": [
+      { "value": "40+", "label": "Countries shipped" },
+      { "value": "FOB/CIF/DDP", "label": "Trade terms" },
+      { "value": "[60 days]", "label": "Free consolidation hold" },
+      { "value": "[30–35 days]", "label": "Sea transit to US East" }
+    ]
+  },
+
+  "afterSales": {
+    "title": "After-Sales & Warranty",
+    "pageType": "After-Sales",
+    "intro": "A defect found at your customer's home is expensive. We would rather solve it at our factory — and if we miss something, we fix it fast.",
+    "body": [
+      "Warranty: [5] years on frames and structural components for commercial use · [2] years on upholstery and foam under normal use · [1] year on hardware and mechanisms. Wear-and-tear and improper care are excluded; everything else we stand behind.",
+      "Claim process: Photograph the issue and send it to your account manager with the order number. We respond within [24 hours] on weekdays with a disposition — replacement part, replacement unit, or credit against your next order.",
+      "Replacement policy: For confirmed manufacturing defects, we ship replacement parts or units with your next order at no charge. For larger issues, we arrange a dedicated shipment and cover the freight.",
+      "Why this matters: Your end customer does not know or care where the furniture was made. By the time a problem reaches you, you own it. Our warranty exists so that ownership doesn't cost you money."
+    ],
+    "keyFacts": [
+      { "value": "[5 yr]", "label": "Frame warranty (commercial)" },
+      { "value": "[24 h]", "label": "Claim response time" },
+      { "value": "[2 yr]", "label": "Upholstery warranty" },
+      { "value": "Free", "label": "Defect replacement freight" }
+    ]
+  }
+}

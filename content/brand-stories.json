@@ -1,0 +1,80 @@
+{
+  "_readme": "四个品牌的品牌故事。B2B 品牌页的目标不是煽情，是让买家理解『这个设计血统为什么值这个价、卖得动』。",
+
+  "nordic-loft": {
+    "name": "Nordic Loft",
+    "origin": "Denmark",
+    "eraStyle": "Mid-century Scandinavian, 1955–1970",
+    "tagline": "Warm minimalism, built to be lived in",
+    "story": [
+      "Nordic Loft traces the Scandinavian mid-century tradition — the era when Danish workshops turned away from ornament and toward honest material: warm oak, wool, and forms shaped by the human body rather than by decoration.",
+      "The collection's signature is restraint. Lines are continuous, joinery is exposed rather than hidden, and upholstery is soft enough to invite use. It is the aesthetic that made Danish design a global export, and it has never gone out of fashion in the markets that buy it: boutique hotels, design-conscious residential, and modern office reception.",
+      "Why it sells: Nordic design carries universal recognition with buyers. A customer who has never heard of a factory in Foshan has heard of Danish modern — and the pieces photograph exceptionally well, which drives e-commerce and catalog sales for our retail partners.",
+      "Material character: solid ash or oak frames with a matte oil finish, wool and bouclé upholstery, and hand-woven detailing on selected pieces."
+    ],
+    "heroImageAlt": "Nordic Loft — light oak lounge seating in a bright interior",
+    "targetBuyers": ["Boutique hotels", "Interior design studios", "Premium residential retail", "Office & coworking"],
+    "priceBand": "$180 – $900 FOB"
+  },
+
+  "milano-casa": {
+    "name": "Milano Casa",
+    "origin": "Italy",
+    "eraStyle": "Italian modern & post-modern, 1960s–1980s",
+    "tagline": "Statement pieces with an Italian accent",
+    "story": [
+      "Milano Casa is built around the Italian conviction that furniture should be seen before it is sat on. This is the tradition of Milanese workshops that treated a sofa as sculpture — generous volume, dramatic curves, materials that announce themselves.",
+      "The collection leans on the era when Italian design houses broke with Scandinavian restraint and embraced color, scale and luxury leather. Pieces are larger, more expressive, and finished in materials that read as expensive at ten paces.",
+      "Why it sells: this is the collection that wins the showroom floor and the interior photography. For retailers selling to clients who want a room to have a point of view, Milano Casa supplies the anchor piece.",
+      "Material character: top-grain Italian leather in cognac, charcoal and ivory; brushed brass and stainless steel detailing; deep channel-tufted and modular configurations."
+    ],
+    "heroImageAlt": "Milano Casa — cognac leather modular sofa in a dramatic interior",
+    "targetBuyers": ["Luxury residential retail", "High-end hospitality (lobby & suites)", "Showroom & flagship clients", "Interior designers"],
+    "priceBand": "$350 – $2,400 FOB"
+  },
+
+  "kyoto-craft": {
+    "name": "Kyoto Craft",
+    "origin": "Japan",
+    "eraStyle": "Japanese minimalism & craft joinery",
+    "tagline": "Quiet forms, precise joinery",
+    "story": [
+      "Kyoto Craft follows the Japanese tradition of resolving everything through proportion and joinery rather than applied detail. Surfaces are calm; the interest lives in the edge, the corner, and the way one material meets another.",
+      "The collection is technically demanding in a way that is invisible when done well — tight tolerances, hand-fitted joints, and finishes with no tolerance for inconsistency. It rewards a factory that controls its own processes end to end, which is precisely why we produce it in-house.",
+      "Why it sells: this collection appeals to buyers serving clients who have moved past trend-driven design. It photographs beautifully in natural light, sells well to the premium residential and wellness-hospitality segments, and carries very low return rates because there is nothing to dislike.",
+      "Material character: solid walnut and ash with hand-rubbed oil finish, linen and cotton-blend upholstery in natural tones, minimal hardware."
+    ],
+    "heroImageAlt": "Kyoto Craft — walnut dining table and chairs in a minimal interior",
+    "targetBuyers": ["Premium residential retail", "Wellness & spa hospitality", "Architects & design-build", "Tea rooms & fine dining"],
+    "priceBand": "$200 – $1,500 FOB"
+  },
+
+  "aurora-living": {
+    "name": "Aurora Living",
+    "origin": "International",
+    "eraStyle": "Contemporary, 2000s–present",
+    "tagline": "Contemporary design at volume pricing",
+    "story": [
+      "Aurora Living is our contemporary collection — the designs that define what a modern home, café or workspace looks like right now, without the wait or the price of a European lead time.",
+      "Where our other collections are anchored to a historical era, Aurora moves with the market. Pieces are developed against what is actually selling in the segments our buyers serve: modular sofas for compact urban apartments, durable seating for high-traffic hospitality, and lighting that photographs well in listings.",
+      "Why it sells: this is the volume collection. Lower material complexity, flat-pack-friendly engineering, and price points that let retailers hit attractive margins while still selling under their own brand. It is also our most requested line for private-label and OEM programs.",
+      "Material character: performance fabrics and easy-clean leather, metal and composite frames, engineered for commercial durability and cost-efficient shipping."
+    ],
+    "heroImageAlt": "Aurora Living — modern modular sofa in a bright contemporary space",
+    "targetBuyers": ["Volume e-commerce retail", "Cafés & restaurants", "Short-stay rental & BTR", "Private-label / OEM buyers"],
+    "priceBand": "$90 – $600 FOB"
+  },
+
+  "_seriesTemplate": {
+    "_note": "系列故事模板。5 个系列（Classic / Modern / Heritage / Minimal / Art Deco）各写一版，结构一致。",
+    "positioning": "入门走量款 | 中端主力 | 高端定制",
+    "story": [
+      "第一段：这个系列解决什么需求 / 是什么让它在货架上区别于同品牌其他系列。",
+      "第二段：设计语言与材料选择，说清楚'为什么是这个价'。",
+      "第三段：最适合什么样的买家与场景，给出具体的采购理由。"
+    ],
+    "designNotes": "材料与工艺要点：面料等级、框架结构、海绵密度、可定制范围。",
+    "targetBuyers": ["精品酒店", "室内设计工作室", "家具零售商", "OEM 买家"],
+    "priceBand": "$XXX – $XXX FOB"
+  }
+}
