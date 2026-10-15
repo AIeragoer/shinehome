@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
               <a href="/brands/nordic-loft">Brands</a>
               <a href="/factory">Factory</a>
               <a href="/certifications">Certifications</a>
+              <a href="/inspiration">Inspiration</a>
               <a href="/custom-oem">OEM</a>
               <a href="/logistics">Shipping</a>
             </nav>

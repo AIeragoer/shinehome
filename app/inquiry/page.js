@@ -1,6 +1,9 @@
 export const metadata = { title: "Request a Quote — ShineHome" };
 
-export default function InquiryPage() {
+// 支持 ?ref=<设计参考信息> 自动填入（来自灵感库 / 产品页）
+export default async function InquiryPage({ searchParams }) {
+  const { ref } = await searchParams;
+
   return (
     <div className="inquiry-page">
       <h1 style={{ marginBottom: 8 }}>Get a Wholesale Quote</h1>
@@ -18,7 +21,11 @@ export default function InquiryPage() {
           <label>Country / Market</label>
           <input name="country" placeholder="e.g. United States" />
           <label>Products of interest</label>
-          <input name="product" placeholder="SKU / category / link" />
+          <input
+            name="product"
+            defaultValue={ref || ""}
+            placeholder="SKU / category / link"
+          />
           <label>Message</label>
           <textarea name="message" rows="4" placeholder="Quantity, timeline, customization needs..."></textarea>
           <button className="btn btn-primary" type="submit" style={{ width: "100%" }}>Send Inquiry</button>

@@ -3,11 +3,22 @@
 //   HUBSPOT_PRIVATE_APP_TOKEN, HUBSPOT_PIPELINE
 //   RESEND_API_KEY, SALES_NOTIFY_EMAIL
 
-export default async function handler(req, res) {
-  if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
+// App Router：命名导出 + Web Response API；兼容 JSON（fetch）与表单编码（HTML form 原生提交）
+const json = (data, status = 200) =>
+  new Response(JSON.stringify(data), { status, headers: { "Content-Type": "application/json" } });
 
-  const { name, email, company, country, product, message } = req.body;
-  if (!name || !email) return res.status(400).json({ error: "name and email are required" });
+export async function POST(req) {
+  const contentType = req.headers.get("content-type") || "";
+  let body = {};
+  if (contentType.includes("application/json")) {
+    body = await req.json().catch(() => ({}));
+  } else {
+    const form = await req.formData().catch(() => null);
+    if (form) body = Object.fromEntries(form.entries());
+  }
+
+  const { name, email, company, country, product, message } = body;
+  if (!name || !email) return json({ error: "name and email are required" }, 400);
 
   try {
     // 1. 同步到 HubSpot：创建/更新联系人 + 创建询盘工单
@@ -20,7 +31,11 @@ export default async function handler(req, res) {
     // 不阻塞用户：即使 CRM/邮件失败也返回成功，可配合重试队列
   }
 
-  res.status(200).json({ ok: true });
+  // 表单原生提交 → 跳转感谢页；AJAX JSON 提交 → 返回 JSON
+  if (contentType.includes("form")) {
+    return new Response(null, { status: 303, headers: { Location: "/inquiry/success" } });
+  }
+  return json({ ok: true });
 }
 
 async function syncToHubSpot(lead) {
